@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DesignPatternAbstractFactory</string>
+    <string name="show_text">Show Text</string>
+    <string name="action">Next</string>
+</resources>
