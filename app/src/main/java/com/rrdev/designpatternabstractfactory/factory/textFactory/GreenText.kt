@@ -7,7 +7,7 @@ import com.rrdev.designpatternabstractfactory.factory.FactoryEnum.GREEN
 class GreenText: AbstractText() {
     override fun displayOnFormat(): FactoryDisplay {
         return FactoryDisplay(GREEN.accent) {getText().fold(""){ acc, c ->
-            "$acc\n$c"
+            "$acc$c"
         }}
     }
 
