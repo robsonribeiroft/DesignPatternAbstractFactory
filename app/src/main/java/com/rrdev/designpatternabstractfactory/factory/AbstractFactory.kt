@@ -9,11 +9,12 @@ object AbstractFactory {
             FactoryEnum.RED -> RedText()
             FactoryEnum.BLUE -> BlueText()
             FactoryEnum.GREEN -> GreenText()
+            FactoryEnum.BLACK -> BlackText()
             else -> OrangeText()
         }
     }
 
 
-    fun retrieveList() = mutableListOf(FactoryEnum.ORANGE, FactoryEnum.RED, FactoryEnum.BLUE, FactoryEnum.GREEN)
+    fun retrieveList() = mutableListOf(FactoryEnum.ORANGE, FactoryEnum.RED, FactoryEnum.BLUE, FactoryEnum.GREEN, FactoryEnum.BLACK)
 
 }
